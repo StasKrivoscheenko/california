@@ -244,6 +244,12 @@ header{
 }
 .third_sec{
   padding-bottom: 74px;
+  img{
+    margin-bottom: 37px;
+  }
+}
+.tdn{
+  text-decoration: none;
 }
 .item__1{
   width: 303px;
@@ -326,7 +332,7 @@ header{
       font-size: 30px;
       color: black;
     }
-    .col-6{
+    .col-xl-6{
       p{
         font-family: 'Inter', sans-serif;
         font-style: normal;

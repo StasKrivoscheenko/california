@@ -213,6 +213,11 @@ header {
 
 .third_sec {
   padding-bottom: 74px; }
+  .third_sec img {
+    margin-bottom: 37px; }
+
+.tdn {
+  text-decoration: none; }
 
 .item__1 {
   width: 303px;
@@ -292,7 +297,7 @@ header {
     content: "\e09f";
     font-size: 30px;
     color: black; }
-  .sixth_sec .container-fluid .col-6 p {
+  .sixth_sec .container-fluid .col-xl-6 p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
