@@ -1,46 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Inter&display=swap";
 @import "https://fonts.gstatic.com";
 @import "https://fonts.googleapis.com";
-header{
-  max-width: 1440px;
-  padding-left: 73px;
-  padding-top: 31px;
-  padding-right: 102px;
-  padding-bottom: 31px;
-  margin: auto;
-  nav{
-    .last_icons{
-      a{
-        margin-right: 27px;
-      }
-    }
-    ul{
-      display: flex;
-      li{
-        margin-left: 33px;
-        list-style: none;
-        a {
-          font-family: 'Inter', sans-serif;
-          font-style: normal;
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 17px;
-          color: #000000;
-          border-bottom: none;
-          text-decoration: none;
-        }
-      }
-      li:last-of-type{
-        margin-left: 44px;
-      }
-    }
-  }
-}
-.header_con{
-  max-width: 1294px;
-  display: flex;
-  justify-content: space-between;
-}
 .main_section {
   padding-top: 28px;
 }
@@ -459,6 +419,7 @@ header{
     line-height: 22px;
     color: #000000;
     text-decoration: none;
+    margin-bottom: 14px;
   }
   h3{
     font-family: 'Readex Pro', sans-serif;

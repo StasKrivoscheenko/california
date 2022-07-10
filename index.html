@@ -19,27 +19,45 @@
 </head>
 <body>
 <header>
-    <nav class="header_con">
-        <div>
-            <a href="#">
-                <img src="images/logo.svg" alt="picture">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.svg">
             </a>
-        </div>
-        <ul>
-            <li><a href="#">All products</a></li>
-            <li><a href="#">Solutions</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Support</a></li>
-        </ul>
-        <div class="last_icons">
-            <a href="#">
-                <img src="images/head1.png" alt="picture">
-            </a>
-            <a href="#">
-                <img src="images/head2.png" alt="picture">
-            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">All products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Solutions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Support</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </div>
         </div>
     </nav>
+    </div>
 </header>
 <section class="main_section">
     <div class="main_con">
@@ -121,7 +139,7 @@
 <section class="third_sec">
     <div class="main_con">
         <div class="tac">
-            <h2>Save on our most selled items.</h2>
+            <h2>Save on our most sold items.</h2>
             <p>Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
         </div>
         <div class="container-xxl">
