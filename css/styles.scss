@@ -4,6 +4,8 @@
 @import "owl.carousel.css";
 @import "owl.theme.default.css";
 @import "bootstrap.css";
+@import "media.css";
+
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
     @content;
@@ -116,11 +118,15 @@
   }
 }
 .image1{
+  max-width: 639px;
   width: 100%;
   height: 472px;
   padding-left: 42px;
+  padding-right: 32px;
+  position: relative;
   background: #FFFFFF;
   border-radius: 32px;
+  margin-bottom: 72px;
   box-shadow:
           inset 0 3em 3em rgba(0,0,0,0.1),
           0 0  0 2px rgb(255,255,255),
@@ -149,8 +155,10 @@
   color: #000000;
 }
 .image2{
+  max-width: 639px;
   width: 100%;
   height: 270px;
+  padding-right: 218px;
   position: relative;
   padding-left: 42px;
   background: #FFFFFF;
@@ -395,6 +403,7 @@
   max-width: 935px;
   height: 450px;
   position: relative;
+  border-radius: 16px;
 }
 .search_line_2{
   display: block;
@@ -514,169 +523,5 @@
 .tal{
   text-align: left;
 }
-@media screen and (max-width: 1200px){
-  .second_sec{
-    .image2{
-      margin-bottom: 72px;
-    }
-  }
-}
-@media screen and (max-width: 980px){
-  .main_section{
-    .main_text{
-      top: 80px;
-      h3{
-        font-size: 28px;
-      }
-      p{
-        font-size: 14px;
-      }
-      a{
-        font-size: 12px;
-        padding: 12px 28px;
-      }
-    }
-  }
-}
-@media screen and (max-width: 850px){
-  .main_section{
-    .main_text{
-      top: 20px;
-      h3{
-        font-size: 28px;
-      }
-      p{
-        font-size: 12px;
-      }
-    }
-  }
-}
-@media screen and (max-width: 820px){
-  .main_section{
-    .main_text{
-      top: 55px;
-      h3{
-        font-size: 28px;
-      }
-      p{
-        font-size: 12px;
-      }
-    }
-  }
-}
-@media screen and (max-width: 1080px){
-  .main_section {
-    .main_text {
-      top: 90px;
-    }
-  }
-}
-@media screen and (max-width: 730px){
-  .main_section {
-    .main_text {
-      top: 50px;
-      h3{
 
-      }
-      p{
-        display: none;
-      }
-    }
-  }
-}
-@media screen and (max-width: 600px){
-  .main_section {
-    .owl-nav{
-      top: 35%;
-      .owl-next:before{
-        left: 5px;
-      }
-      .owl-prev:before{
-        left: -1px;
-      }
-    }
-    .main_text {
-      top: 25px;
-      h3{
-
-      }
-      p{
-        display: none;
-      }
-    }
-  }
-}
-@media screen and (max-width: 500px){
-  .main_section {
-    .owl-nav{
-      top: 35%;
-      .owl-next:before{
-        left: 5px;
-      }
-    }
-    .main_text {
-      top: 65px;
-      h3{
-        font-size: 15px;
-        line-height: 20px;
-      }
-      p{
-        display: none;
-      }
-      a{
-        font-size: 12px;
-        padding: 8px 18px;
-      }
-    }
-  }
-}
-@media screen and (max-width: 400px){
-  .main_section {
-    .owl-nav{
-      top: 32%;
-      .owl-next:before{
-        left: 5px;
-      }
-    }
-    .main_text {
-      top: 45px;
-      h3{
-        font-size: 15px;
-        line-height: 20px;
-      }
-      p{
-        display: none;
-      }
-      a{
-        font-size: 12px;
-        padding: 5px 18px;
-      }
-    }
-  }
-}
-@media screen and (max-width: 320px){
-  .main_section {
-    .owl-nav{
-      top: 30%;
-      .owl-next:before{
-        left: 5px;
-      }
-    }
-    .main_text {
-      top: 25px;
-      left: 30px;
-      h3{
-        font-size: 15px;
-        line-height: 20px;
-      }
-      p{
-        display: none;
-      }
-      a{
-        font-size: 12px;
-        padding: 5px 18px;
-      }
-    }
-  }
-}
 
