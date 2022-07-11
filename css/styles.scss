@@ -103,7 +103,8 @@
   }
 }
 .image1{
-  width: 639px;
+  width: 100%;
+  max-width: 639px;
   height: 472px;
   padding-left: 42px;
   background: #FFFFFF;
@@ -114,8 +115,9 @@
           0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 .text_2nd_sec{
+  position: absolute;
   right: 42px;
-  bottom: 41%;
+  bottom: 0%;
 }
 .laptop{
   text-align: right;
@@ -124,6 +126,7 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
+  color: black;
 }
 .laptop_h3{
   font-family: 'Readex Pro',sans-serif;
@@ -134,7 +137,8 @@
   color: #000000;
 }
 .image2{
-  width: 639px;
+  width: 100%;
+  max-width: 639px;
   height: 270px;
   margin-top: 72px;
   padding-left: 42px;
@@ -146,11 +150,13 @@
           0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 .text_3rd_sec{
+  position: absolute;
   right: 42px;
   bottom: 10%;
 }
 .image3{
-  width: 312px;
+  width: 100%;
+  max-width: 312px;
   height: 792px;
   position: relative;
   background: #FFFFFF;
@@ -176,6 +182,7 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
+  color: black;
 }
 .text_5rd_sec{
   position: absolute;
@@ -184,7 +191,8 @@
   top: 114px;
 }
 .image4{
-  width: 312px;
+  width: 100%;
+  max-width: 312px;
   height: 792px;
   position: relative;
   background: #FFFFFF;
@@ -445,6 +453,43 @@
     font-size: 17px;
     line-height: 22px;
     color: #000000;
+  }
+  .sprites{
+    a{
+      background-image: url("../images/sprites2.png");
+      background-repeat: no-repeat;
+      height: 98px;
+      width: 100px;
+      display: inline-block;
+      margin-bottom: 10px;
+      transition: all 0.3s ease-out;
+    }
+    a.twitter {
+      background-position: -100px top;
+    }
+
+    a.youtube {
+      background-position: -200px top;
+    }
+
+    a.instagram {
+      background-position: -300px top;
+    }
+
+    a.linkedin {
+      background-position: -400px top;
+    }
+
+    a.tumblr {
+      background-position: -500px top;
+    }
+
+    a.google {
+      background-position: -600px top;
+    }
+    a:hover{
+      background-position-y: bottom;
+    }
   }
 }
 .tal{
