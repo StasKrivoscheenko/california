@@ -1,6 +1,14 @@
 @import "https://fonts.googleapis.com/css2?family=Inter&display=swap";
 @import "https://fonts.gstatic.com";
 @import "https://fonts.googleapis.com";
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
+@import url(bootstrap.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
 .main_section {
   padding-top: 28px; }
 
@@ -105,7 +113,7 @@
 .text_2nd_sec {
   position: absolute;
   right: 42px;
-  bottom: 0%; }
+  bottom: 0; }
 
 .laptop {
   text-align: right;
@@ -355,7 +363,7 @@
   color: black;
   background-clip: padding-box;
   background: #DCE5E2;
-  border-radius: 54px 0px 0px 54px;
+  border-radius: 54px 0 0 54px;
   border: 1px solid #000000;
   -webkit-appearance: none;
   -moz-appearance: none;
