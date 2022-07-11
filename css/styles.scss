@@ -5,7 +5,6 @@
 @import "owl.theme.default.css";
 @import "bootstrap.css";
 @import "media.css";
-
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
     @content;
