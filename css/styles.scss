@@ -117,7 +117,6 @@
 }
 .image1{
   width: 100%;
-  max-width: 639px;
   height: 472px;
   padding-left: 42px;
   background: #FFFFFF;
@@ -151,9 +150,8 @@
 }
 .image2{
   width: 100%;
-  max-width: 639px;
   height: 270px;
-  margin-top: 72px;
+  position: relative;
   padding-left: 42px;
   background: #FFFFFF;
   border-radius: 32px;
@@ -390,6 +388,14 @@
     color: #000000;
   }
 }
+.last_block{
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 935px;
+  height: 450px;
+  position: relative;
+}
 .search_line_2{
   display: block;
   width: 285px;
@@ -507,6 +513,13 @@
 }
 .tal{
   text-align: left;
+}
+@media screen and (max-width: 1200px){
+  .second_sec{
+    .image2{
+      margin-bottom: 72px;
+    }
+  }
 }
 @media screen and (max-width: 980px){
   .main_section{
